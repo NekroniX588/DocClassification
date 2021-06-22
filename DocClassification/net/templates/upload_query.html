@@ -1,0 +1,12 @@
+{% extends 'main.html' %}
+
+  {% block content %}
+    <div class="container col-4 mt-10">
+      <h2>Выберите подпись для идентификации</h2>
+      <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form }}
+        <button type="submit" class="btn btn-primary mt-4">Обработать</button>
+      </form>
+    </div>
+  {% endblock %}

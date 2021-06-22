@@ -1,0 +1,13 @@
+{% extends 'main.html' %}
+
+  {% block content %}
+    <div class="row">
+    {% for item in result %}
+        <div class="text-center col-2">
+            <p>Атрибут {{item.0}}</p>
+            <p>Вероятность {{item.1}}</p>
+        </div>
+        
+    {% endfor %}
+    </div>
+  {% endblock %}
