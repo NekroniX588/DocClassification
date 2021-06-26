@@ -15,3 +15,4 @@ class QueryForm(forms.ModelForm):
 		super().__init__(*args, **kwargs)
 		for field in self.fields:
 			self.fields[field].widget.attrs['class'] = 'form-control'
+			self.fields[field].widget.attrs['accept'] = ".pdf, .docx, .pptx, .xlsx, .eml, .msg, .txt"

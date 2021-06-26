@@ -2,6 +2,13 @@
 
   {% block content %}
     <div class="container col-4 mt-10">
+      {% if messages %}
+      <ul class="messages">
+          {% for message in messages %}
+          <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+          {% endfor %}
+      </ul>
+      {% endif %}
       <h2>Выберите подпись для идентификации</h2>
       <form method="post" enctype="multipart/form-data">
         {% csrf_token %}
