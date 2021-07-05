@@ -1,0 +1,14 @@
+Web Accessibility Checker
+atutor.ca/achecker
+
+Friday December 7, 2018 14:30:02
+Source URL: http://www.royalgroupservices.com/tdbanktemp/index.htm
+Source Title: North American Data Security RPG Portal
+Accessibility Review (Guidelines: WCAG 2.0 (Level AA))
+Report on known problems (0 found):
+
+Congratulations! No known problems.
+
+Page 1/1
+
+

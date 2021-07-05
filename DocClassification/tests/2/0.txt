@@ -1,0 +1,59 @@
+DGC P2P US. Advisory Committee Meeting
+
+Digital Channels
+
+February 9, 2017. Agenda. Key Topics & Updates
+Status 
+TD Fiserv Contract and T&Cs
+Accessibility
+Go-to-Market Work Stream
+Project Status
+Project Financial Overview
+Appendices
+
+
+
+. <number>. U.S P2P - Key Updates. P2P Status – YELLOW (trending GREEN)
+Yellow based on work to align latest project budget/financials. (we are green on project schedule)
+Project schedule has been re-baselined to maintain March delivery dates
+It accounts for Fiserv Vanilla launch, existing defect delivery plans, Fiserv drop dates, and QA completion dates for SIT and PAT.
+Pilot dates for Online Banking and Mobile experiences are set for 3/06 and 3/20 respectively
+RIB Online & Mid-Tier Prod Deployment March 18th/19th
+Mobile submission to Apple store: March 20th – Align Google and Apple store launch to March 27th 
+
+Key Assumptions / Risks
+February 13th is the latest drop for all applications including RIB Online, Mobile, Mid-Tier, and Fiserv.
+
+
+
+
+
+
+
+
+
+
+Go To Green (Feb 23th)
+Complete review of project PCR's
+With project financials being switched from Canadian to a US project, re-align all project actuals and estimates at completion
+Conduct a project budget review. <number>. U.S P2P - Key Updates. TD/Fiserv Contract Addendum and Terms & Conditions (T&Cs)
+T&Cs for Vanilla launch finalized and approved for March launch
+Legal teams continue to work through remaining items for Contract Addendum
+Accessibility 
+Our earlier exemption request to launch with outstanding accessibility defects was not approved by the Accessibility Council. We continued to work with Fiserv to make progress on these defects
+Fiserv has remediated critical/high defects and fixes will be available by 02/13 
+Medium defects must have a clear plan provided for remediation in future releases with ETAs provided by Fiserv
+Returning to the Accessibility Council on February 15th to present defect update and remediation plans
+. <number>. U.S P2P - Key UpdatesGo To Market Workstream . Required Customer Communications
+February Statement Message live for Reg E notifications
+Legal has requested email notification on T&Cs change
+Public Site 
+Copywriting done, in the process of submitting to CAP and go live in mid-March 
+Collateral
+Required changes to PDAA, Retail EFT, account/product guides in design
+Phone Channel
+Drafting initial leadership communications for launch and planning for detailed team communications 
+Store Channel 
+Working through Retail One communication and articles 
+L&D
+Reviewing existing training documentation and plan to have fully updated module for new hire training early April . <number>. Key Milestones. <number>. . PCRs. <number>. <number>. Project Team:  Issues, Actions, Decisions & Risks  . Finances as off 1/31/17*Please note this slide is updated once a month. <number>. <number>. Project Governance. <number>. Go-to-Market Governance – Training, Communication & Launch Workstream . <number>. 

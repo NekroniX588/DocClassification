@@ -8,4 +8,5 @@ urlpatterns = [
     path('', views.main, name='main'),
     path('add_query/', views.upload_query, name='upload_query'),
     path('check/<int:pk>', views.check_document, name='check_document'),
+    path('add_many/', views.upload_many, name='upload_many'),
 ]

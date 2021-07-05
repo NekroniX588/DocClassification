@@ -1,0 +1,362 @@
+RE: MRA600 Notifications - UMP Product Requirements Review Follow Up. Hi all,
+
+ 
+
+Please find below notes as discussed during the call today. UMP Product
+Requirements pages will be updated accordingly to provide clarity where
+needed.
+
+ 
+
+Let us know if there are any further questions.
+
+1.        
+
+2.       MRA600_UMP_DLR10.5 - Note: Standard UMP SLA is 24 hours to
+process and send out notifications. In the case there is a specific
+deadline for notifications to be distributed by, UMP must receive a
+request 24 hours in advance.
+
+3.       Above note is very important. This shows that UMP may not be
+able to meet 48 hour MRA timeline. Please clarify this.
+
+4.       [AT] Need USIM engaged to work out the timing between source,
+EDPP, and UMP.
+
+Note: we are still waiting for MRA600 to confirm volumes and timing of
+the file. Based on this we'll be able to provide a better answer of
+expected processing time. 
+
+The following is generic UMP guideline: 
+
+ 
+
+Time Window
+
+Volume (Number of Records)
+
+Processing Time
+
+Status to EDPP
+
+Confidence Level
+
+12 am to 4 am
+
+Reserved for maintenance and scheduled jobs
+
+4 am to 9 am
+
+100K - 500K
+
+30 - 180 mins
+
+same day
+
+99%
+
+9 am to 9 pm
+
+100K - 500K
+
+30 - 120 mins
+
+same day
+
+99%
+
+9 pm to 10 pm
+
+100K - 500K
+
+30 - 120 mins
+
+same day
+
+70%
+
+10 pm to 12 am
+
+100K - 500K
+
+30 - 120 mins
+
+same day*
+
+30%
+
+same day + 1
+
+99%
+
+* Potentially partial data will be sent to EDPP
+
+** This stats needs review every release to account for other new
+consumers
+
+ 
+
+When should EDPP action for Direct Mail? Is it after UMP sends "Maximum
+Retries Reached" status OR "Bounce Back (email bounce back is received)"
+OR both?
+
+[AT] The status is sent to EDPP nightly, MRA to decide when to trigger
+paper notifications. UMP will provide support to define statuses and
+extraction criteria. 
+
+MRA600 to engage EDPP for the EDPP consumption process, this contact to
+work with UMP to define criteria to meet business needs. 
+
+ 
+
+Requirements do not consider Versioning support for templates. If Prod
+folder and Historical folder are used then Template URL will become
+invalid as the template changes
+
+[AT] There is only one template version that can be used for the certain
+alert type at any given time. Historical versions will be maintained in
+WCM. For each message UMP will pass template name with version number to
+EDPP. 
+
+[Per Howard] This would require a PCR.
+
+ 
+
+Requirements do not consider WCM to EDPP interface – Solution option 1. 
+
+[AT] Historical versions will be maintained in WCM and UMP will
+provision links to WCM repository (in EDPP feed).
+
+[Per Howard] This would require a PCR.
+
+ 
+
+Requirement states Only data from the previous day will be extracted for
+UMP to EDPP batch- Why is this drafted in this manner. It has exclusion
+logic of those emails which are not success nor failure and still in
+retry for day 2.
+
+EDPP – UMP -> I think this is not OK -> The cut off to extract files is
+midnight. Files are expected to be available daily between 2 - 8 am.
+
+[AT] UMP will extract all delta records (records that have been modified
+or added) during the day. Extraction will happen at midnight for the
+previous day. In this particular scenario the status will be update to
+'waiting for retry'.
+
+Issues and delays of notifications will be identified and send to EDPP
+by the second midnight (within the 48 hours window), allowing for direct
+mail to be sent. 
+
+ 
+
+Why is this a requirement - ?? "For the incoming batch file UMP will be
+processing records as these are coming in. This process will not impact
+daily extraction to EDPP. In the case when incoming batch file is not
+fully processed before the cut-off, statuses will only be extracted for
+records already processed." This delays processing of EDPP and
+eventually MRA SLA.
+
+[AT] Requirement for UMP is to capture delta records regardless if the
+whole file was processed or not. Refer to the table above. Will
+update/clarify in Clarity.
+
+ 
+
+Ahamed had earlier mentioned retention is 90 days. Requirements say -
+Existing UMP standards are applied for retention rules (i.e. current
+rule is to store data for 7 years in the SMDB). At another place,
+requirement says – "History of email notifications shall be auditable
+for 10 years."
+
+[AT] UMP will store data for 90 days. EDPP will store data based on the
+defined retention period. There are discussions happening to have 7 vs.
+10 years retention.
+
+ 
+
+Architects need to agree with this. I think this is not ok. -> UMP
+preference not to receive any batch files from 21:00 pm until 4 am –
+schedule for each consumer is defined in the detailed requirements.
+
+[AT] 12 am to 4 am is time reserved for maintenance and scheduled jobs –
+the files can be sent to UMP, but these won't be processed. Any files
+received from 9 pm till 12 am may potentially result in partial data
+sent to EDPP. Refer to the table above.
+
+ 
+
+When UMP feedback to EDPP fails, OR EDPP file to UMP is rejected
+entirely without processing, requirements state to involve Manual L2
+support for resolution and no systematic way. Is Business OK with this?
+It delays MRA SLA.
+
+[AT] System errors will be communicated to L2 Support. As an optional
+feature MRA can choose for UMP to notify L2 if file wasn't received as
+per defined schedule.
+
+ 
+
+System Requirements do not mention anything about CCAPPLY US Bank Card
+Account opening use case. I think UMP needs to configure and onboard new
+consumer for CCAPPLY. Business requirements has reference to this
+though.
+
+[AT] This is an existing onboarding exercise – no new UMP functionality
+will be built for this. Will call out in the assumptions section.
+
+ 
+
+For Batch request – 4.8 – Note isn’t complete. Note: this requirements
+only addresses failure of the whole file, rejection of the individual
+records will.
+
+[AT] Will update.
+
+ 
+
+In case of One or more fields within the file exceed maximum allowable
+field length as defined in batch file format why UMP will drop it, why
+not reject the record.
+
+In case of Incorrect field value format of one or more fields within the
+file format why UMP will drop it, why not reject the record.
+
+In case of Invalid record type provided within the file, why UMP will
+drop it, why not reject the record.
+
+In case of Invalid record structure where record doesn't have the right
+number of fields, why UMP will drop it, why not reject the record.
+
+[AT] This is are the scenarios where UMP won't be able to do a bulk-load
+to database and records will be dropped. As per data requirements,
+MRA600 need to ensure to send valid data to UMP. UMP will provide
+information for the dropped records as a separate file to EDPP (design
+is in progress).
+
+ 
+
+How is UMP going to utilize "Channel_Name" field.
+
+[AT] used to identify originating channel for notifications and to be
+used for reporting purposes.
+
+ 
+
+As part of Notification PCR on EDPP Switches – Email notifications for
+specific products may be turned OFF at EDPP level, and hence when turned
+ON, if business wants to resume the notifications from the point it was
+turned off, UMP may receive many feeds for same set of account/customers
+in same day. Are there any specific constraints at UMP regarding this?
+Is there any specific order in which UMP will pick and deliver emails?
+
+[AT] UMP has no restrictions on the number of files and will process all
+received files. Duplicate records in the same file will be rejected.
+Duplicate records in different files will be processed. Duplicate
+records are determined by "Traceability ID + Delivery Method + Delivery
+Address".
+
+MRA600 to provide use cases to further define this if needed.
+
+ 
+
+When WCM is down, why record is being rejected and why not set in RETRY
+mode?
+
+[AT] There will be a retry process in case WCM is down, I'll update
+requirement to clarify. Where template not found record will be
+rejected.
+
+ 
+
+Will UMP do any validation of Traceability ID coming from CCAPPLY with
+the Traceability ID format agreed upon for EDPP Batch Feed?
+
+[AT] No, validation of the traceability ID will only be done within
+specific batch file. It is for business benefit to use unique values,
+which can then be used for reporting purposes. 
+
+ 
+
+How will UMP determine which template to pick? (Only EVENT Type field OR
+based on variable data as well?)
+
+[AT] UMP will determine appropriate template based on the alert type
+code (Alert_Type_Cd), language (Language), and delivery method
+(Delivery_Method). UMP will store a mapping of these params to the
+template name and template name will be used to pull appropriate
+template from WCM. If template is not found based on the above criteria,
+record will be rejected. 
+
+ 
+
+Thanks,
+
+ 
+
+Alina Tuguskin | Business System Analyst | Channels Technology Solutions
+| TD Bank Group 
+
+T: 905-293-3108 | alina.tuguskin@td.com <mailto:alina.tuguskin@td.com> 
+
+ 
+
+ 
+
+-----Original Appointment-----
+From: Tuguskin, Alina 
+Sent: Wednesday, March 28, 2018 11:31 AM
+To: Tuguskin, Alina; Katz, Howard S; Harper, Greg; Fatone, Jamey L;
+Breed, Gordon G; Altemus, Suzie; Lazzaro, Bruce M; Blizard, Ron; Hayes,
+Angela; Parker, Jarvis; Fonagy, Lisa; Apostol, Hermann S; Liao, Anli;
+Iyer, Rekha S; Iacovelli, Christopher D; Ford, Joe; Ahmed, Ibrar; Qin,
+Alan; Meeran, Ahamed; Singh, Bhuwnendra; Tang, Keith; Mann, Rani;
+Collier, Karl; Rieger, Austin; Bailey, Erin E; Stoves, Melissa; Tierney,
+Aidan; Purdy, Gabriel A; Martin, Linda; Hutchison, Daniel M; Miller,
+Thomas; Kumar, Ravindra; Munuswamy, Chandrasekaran; Akella, Siva Rama
+Krishna; Pinto, Nabil; Small, Eric; Yadav, Rajesh; DiGenova, Stephanie
+M; Fassold, Robert W
+Cc: Patel, Nalinbhai S; Messick, Caitlin; Osuagwu, Leontine S; Reed,
+Teresa M; Donboch, Quentin F; Moll, James (James.Moll@td.com); Katikala,
+Sivakumar; Gerstenbacher, Eric (Eric.Gerstenbacher@td.com); Moule,
+William T (William.Moule@td.com); Steve Terry (steven.terry@td.com)
+Subject: MRA600 Notificaitons - UMP Product Requirements Review Follow
+Up
+When: Monday, April 9, 2018 10:00 AM-11:00 AM (UTC-05:00) Eastern Time
+(US & Canada).
+Where: Dial in 1-866-862-7608 or 416-343-4287 Conf.ID: 3534914# 
+
+ 
+
+ 
+
+........................................................................
+.................................................................
+
+Join online meeting
+<https://meet.td.com/td/meet/alina.tuguskin/J7Q9WFZG> 
+
+https://meet.td.com/td/meet/alina.tuguskin/J7Q9WFZG
+<https://meet.td.com/td/meet/alina.tuguskin/J7Q9WFZG>    
+
+ 
+
+First online meeting?
+<http://r.office.microsoft.com/r/rlidOC10?clid=1033&p1=4&p2=1041&pc=oc&v
+er=4&subver=0&bld=7185&bldver=0>  
+
+[!OC([1033])!]
+
+........................................................................
+.................................................................
+
+ 
+
+ 
+
+ 
+
+
+
+Internal
+

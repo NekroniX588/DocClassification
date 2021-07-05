@@ -16,3 +16,6 @@ class QueryForm(forms.ModelForm):
 		for field in self.fields:
 			self.fields[field].widget.attrs['class'] = 'form-control'
 			self.fields[field].widget.attrs['accept'] = ".pdf, .docx, .pptx, .xlsx, .eml, .msg, .txt"
+
+class FileFieldForm(forms.Form):
+    file_field = forms.FileField(widget=forms.ClearableFileInput(attrs={'multiple': True}))

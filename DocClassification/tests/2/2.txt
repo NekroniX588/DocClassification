@@ -1,0 +1,440 @@
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+DC Major Initiative Review (MIR) 
+Meeting Minutes 
+Document Version 1 
+September 19, 2017 
+
+ Internal 
+
+1 
+
+ 
+
+Table of Contents 
+Meeting Minutes ................................................................................................................... 2 
+1.1  Agenda ................................................................................................................................... 2 
+1.2  Approval Summary & Action Items ....................................................................................... 4 
+
+ 
+ 
+
+Meeting Minutes 
+
+ 
+ 
+           Meeting Date:  September 21, 2017 
+                             
+
+ 
+
+ 
+
+ 
+
+Participants: 
+Todd Copeland, Mike Coyne, Wendy Murphy, Sebastien Forget, Karen DeVogel, Rick Jaros, Joe Ford, Craig 
+Backman, Al Lamoureux, Cory Millar, Sladjana Jovanovic, Bryan Dunn 
+
+ 
+
+Facilitator:  Bryan Dunn 
+
+1.1  Agenda 
+Business Case Re-Authorization 
+W-16-18 
+
+Wealth Client Discovery 
+
+ 
+
+ 
+
+ 
+
+Business Case: EPMO Gate 3 
+TB-17-807 
+Public Site (US) 
+W-17-07 
+DI Public Site Redesign 
+W-17-11 
+Wealth Public Site Discovery Content 
+
+Solutions Approach: EPMO Gate 2 
+CT-17-36 
+CT-17-41 
+UP-17-02 
+
+Closest MMS 
+Project Badger NDA 
+Decoupled Bill Pay 
+
+Approval To Ideate 
+TB-17-42 
+TB-17-43 
+CT-17-51 
+
+CP&S SB Online Accounting Service I 
+Customer View Business Portal 
+GIC Click to Renew Responsive Design 
+
+Partner Funded Line Item 
+TB-17-36 
+
+MRA600 
+
+Page 4 
+
+Page 4 
+Page 4 
+Page 5 
+
+Page 5 
+Page 5 
+Page 5 
+
+Page 5 
+Page 6 
+Page 6 
+
+Page 7 
+
+ 
+
+Internal 
+
+Page | 2  
+ MIR Meeting Minutes 09-19-2017.docx1  
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+Tier 5 
+CT-17-14 
+
+For Information 
+O-17-01 
+
+PSI Ongoing Enhancements 
+
+PB PL Personal Lending Digital Sales 
+
+ 
+
+Page 7 
+
+Page 7 
+
+ 
+
+Internal 
+
+Page | 3  
+ MIR Meeting Minutes 09-19-2017.docx1  
+
+1.2  Approval Summary & Action Items 
+All numbers on the subsequent pages are in thousands 
+
+ 
+Business Case Re-Authorization Approval  
+ 
+W-16-18 
+
+Wealth Client Discovery 
+
+Requesting   
+
+Total Project investment of $3,571 (old $3,398) 
+Total One Time $3,035 (old $2,862) (w/o tolerance $2,857 (old ($2,995)) 
+
+ 
+Decision: 
+Notes:  
+• Support Financial Planning build and deployment activities ($135M - ref: PCR 022) 
+• Support Web Content Management build and deployment activities ($40M ref: PCR 023) 
+
+ Approved pending CFO, EVP and Group Head approval. 
+Latest re-authorization required as a result of 
+
+ 
+
+ 
+Business Case Approval: EPMO Gate 3  
+ 
+TB-17-807 
+
+Public Site (US) 
+
+Requesting   
+
+Requesting funding release of $251 for release 18.0 (Cumulative - $2,201) 
+(Previously approved for $1,950 on June 13, 2017) 
+
+ 
+Decision:  Approved pending CFO, EVP and Group Head approval. 
+Notes:  
+
+This  request  is  for  the  last  funding  for  factory  for  the  remaining  of  the  year,  for  the  full 
+Business Case. It is in Plan. 
+ 
+
+ 
+W-17-07 
+
+Requesting   
+
+DI Public Site Redesign 
+
+Total Project investment of $1,330 
+Total One Time $1,450 (w/o tolerance $1,330) 
+
+Pending 
+Approval 
+
+ 
+
+Pending 
+Approval 
+
+Pending 
+Approval 
+
+ 
+Decision:  Approved pending CFO, EVP approval. 
+Notes: Partner funded, with confirmation of $30M remaining allocation in F17 to be confirmed. 
+ 
+
+ 
+
+ 
+
+Internal 
+
+Page | 4  
+ MIR Meeting Minutes 09-19-2017.docx1  
+
+ 
+
+ 
+W-17-11 
+Requesting   
+
+Wealth Public Site Discovery Content 
+Total Project investment of $248 
+Total One Time $289 (w/o tolerance $248) 
+
+Closest MMS 
+A total of $177 to reach Business Case / Gate 3) 
+
+ 
+Decision:  Approved 
+ 
+ 
+Solutions Approach Funding: EPMO Gate 2 
+ 
+CT-17-36 
+Requesting   
+ 
+Decision:  Approved 
+Notes: 
+ 
+ 
+CT-17-41 
+Requesting   
+ 
+Decision:  Approved 
+Notes: 
+ 
+ 
+UP-17-02 
+
+Project Badger NDA 
+$154 to reach Business Case / Gate 3) 
+
+Decoupled Bill Pay 
+
+Project is NDA 
+
+Partner funded, within the Mobile for Everyone portfolio 
+
+Approved 
+
+Approved 
+
+Approved 
+
+Pending 
+Approval 
+
+Requesting   
+ 
+Decision: 
+Notes: 
+
+A total of $3,240 requested for approval  to reach Business Case / Gate 3 
+
+Approved pending CFO, EVP approval. 
+
+ 
+Confirmation required for "release" of unused funding in F17, and F18 funding allocation to 
+be confirmed a part of annual planning. 
+
+  
+
+ 
+ 
+Approval To Ideate 
+As discussed, Digital Delivery team in discussion with EPMO on potential need to re-work as the new 
+Approval to Start (ATS) format for these requests, which may result in need to revisit with MIR 
+committee. 
+ 
+TB-17-42 
+Requesting   
+
+CP&S SB Online Accounting Service I 
+$50 Funding Request  for Tranche 0 ($45 FY'17, $5 FY'18) 
+Total Directional Estimate: $1,240 (2017 $45 2018 $1,195) 
+
+Approved 
+
+ 
+Decision:   Approved 
+ 
+
+ 
+
+ 
+
+ 
+
+Internal 
+
+Page | 5  
+ MIR Meeting Minutes 09-19-2017.docx1  
+
+TB-17-43 
+Requesting   
+
+Customer View Business Portal 
+$50 Funding Request  for Tranche 0 ($45 FY'17, $5 FY'18) 
+Total Directional Estimate: $3,500 (2017 $45 2018 $3,455) 
+
+ 
+Decision:   Approved 
+ 
+CT-17-51 
+Requesting   
+
+GIC Click to Renew Responsive Design 
+$50 Funding Request  for Tranche 0 
+Total Directional Estimate: $130 (2017 $50 2018 $80) 
+
+Approved 
+
+Approved 
+
+Decision:   Approved 
+ 
+
+ 
+
+ 
+
+Internal 
+
+Page | 6  
+ MIR Meeting Minutes 09-19-2017.docx1  
+
+ 
+
+ 
+ 
+
+ 
+
+Partner Funded – Partner Governed 
+ 
+Approval to Ideate 
+TB-17-36 
+ 
+ 
+Tier 5 Projects 
+
+MRA600 
+
+PSI Ongoing Enhancements 
+
+Business Case: EPMO Gate 3 
+CT-17-14 
+ 
+ 
+For Information 
+
+Business Case: EPMO Gate 3 
+O-17-01 
+ 
+ 
+
+PB PL Personal Lending Digital Sales 
+
+ 
+
+Reviewed 
+
+Reviewed 
+
+Reviewed 
+
+RE Next Milestone Review for WE 15-Sep-2017.msg
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+TD Bank Financial Group - Restricted 
+The information contained herein is the property of Toronto-Dominion Bank and may not be used, 
+reproduced or disclosed to others except as specifically permitted in writing by the originator of the 
+information.  The recipient of this information, by its retention and use, agrees to protect the same 
+and the information contained therein from loss, theft and compromise. 
+ 
+Any copies of this document which are no longer required in company approved retention systems 
+must be disposed of by means in which the trustee of the copy guarantees its complete destruction. 
+ 
+
+ 
+
+Internal 
+
+Page | 7  
+ MIR Meeting Minutes 09-19-2017.docx1  
+
+ 
+ 
+
+ 
+ 
+
+ 
+
+

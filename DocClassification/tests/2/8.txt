@@ -1,0 +1,28 @@
+NGP Program StatusWeek ending February 15, 2019. Project Small Business Status. TD US NGP Program – Status Deck. 2. 3. 4. 5. 6. 7. 8. 9. 10. Appendix. TD US NGP Program – Status Deck. 11. Where we are. Conversion Timeline with Key Dates and Risks
+As of 01/18/2019. SB App Deployment / Prod Event. Activity. . #. Key Dates. . 2.1.2 Pre-Conv. Remedial Code. . . Holiday. PAT HOST Refresh. Executive Steering Committee. . HOST File Generation. Mock 5 Test 
+(PAT). ADV 
+Test in (DEV). Conv. 1/2
+(PAT). C. Conv. DR (PAT). Conversion. . R/O & R/B (PAT). Bus. Mitigation Strategy for ADV Defects . Bus. Test (SIT). Review of ADV results from TD Conversion DIT environment and checkpoint to decide to kick off PAT Conversion execution
+Review of ADV results from TD Conversion PAT environment and checkpoint to decide to complete conversion up to QA Shakedown
+Completion of PAT Conversion execution
+Review and prioritization of Mock 5 testing defects against Go-Live date of February 23, 2019
+Checkpoint  for Fiserv team to deliver final ADV fixes
+. Key Dates. Key Risks. No major defects are encountered through all remaining testing periods
+Acceptance of risk related to elimination of the SIT Testing cycle
+Increased triage time as data in PAT requires intermediary to help
+Limited time to fix any launch gating defects found in Mock 5 PAT prior to dress rehearsal
+Fixes for defects found in Mock 5 will be addressed in two weeks leading up to conversion and  will not have been tested through a conversion event prior to Go-Live
+. 2. 1. . Conv. Setup. Conv. 2/2 (PAT). 3. 4. . 12. . . . Sprint 0. Sprint 0. . . SB Releases. Legend:           Major Milestone                 Releases	               NGP "Freeze". . SB. . Stabilization. NGP Program . BillPay Phase 2 – PNS, MM. Investment Referrals 
+Phase 2. Aggregation Out API. BR/G/D*. USDP Sprints. Mobile Sprints. USDP Sprints. Mobile Sprints. SIT/PAT. BR/G/D. USDP Sprints. PAT. Projects/Pods. Customer Pilot. . . . Online Improvement Pod. USDP/Mobile Sprints. Warranty. Rel. 19.05. BR/G/D*. USDP Sprints. Other (API, Core Banking, Ping). Pilot. . USDP Delivery Roadmap as of 01/18/2019. Online Account Services *. . QA Kanban Pod. Self-Service Pods
+(Online/Mobile). . SB Go-Live. . Conversion. Rel. 2.2. . Rel. 2.1.1. . Rel. 2.1.2. . PAT. Stabilization. . PAT. SIT/PAT. Rel. 19.07. Rel. 19.08. G/D. Parity Pods
+(Online/Mobile). . . . . User Name Retrieval
+Change User Name (mobile) . Checking Redesign
+Postponed Defects. Postponed Defects. Postponed Defects. Fiserv FP 19.1
+APG/UARD
+OLB Correction
+Titan Ph2. APG/UARD
+Titan Ph2
+OLB Correction
+CCU. CCU. CCU. Rel. 19.09. *OAS Project is in Planning, dates notional only. . Activate a Card
+Close a Card
+Freeze/Unfreeze Card. 13. 

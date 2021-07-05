@@ -1,0 +1,104 @@
+RE: TIP Request #1807 For Channels-Other Requires Review. Working on a brand new bill pay experience for our US customers Adrian!
+
+ 
+
+Let me know if you have any questions.
+
+ 
+
+Thanks!
+
+Fahad
+
+ 
+
+_______________________________________________________________
+
+Fahad Khan | Emerging Payments | Digital Channel
+
+T: 416-983-1660 C: 647-781-5888
+
+ 
+
+From: Grigore, Adrian 
+Sent: Wednesday, April 05, 2017 4:09 PM
+To: Khan, Fahad M
+Subject: RE: TIP Request #1807 For Channels-Other Requires Review
+
+ 
+
+Hi Fahad,
+
+ 
+
+I have a couple questions regarding this TIP request in order to ensure the correct BTRM is assigned. NGP MAL code indicated in the request is not valid; could you please clarify which TD application is being impacted by this project? Do  you have any documentation (e.g. scope deck, high level ABP, etc) that could be sent for review? 
+
+Best regards,
+
+ 
+
+Adrian Grigore I BTRM I Technology Risk Management & Information Security I TD Bank Group
+
+1875 Buckhorn Gate, Mississauga, Ontario, L4W 5P1
+
+T: 905-293-5518 I M: 647-290-9437
+
+ 
+
+ 
+
+ 
+
+ 
+
+From: TRMIS Intake Portal [mailto:SP10_PSPX_04@td.com] 
+Sent: Wednesday, April 05, 2017 3:48 PM
+To: trmis-btrm-dc-intake
+Subject: TIP Request #1807 For Channels-Other Requires Review
+
+ 
+
+ 
+
+
+TRMIS Intake Portal
+
+
+
+Request #1807 has been submitted into the TRMIS Intake Portal and requires review and action by your team. Review request and determine whether you are the appropriate BTRM to be assigned. The BTRM assigned to the project will act on behalf of TRMIS for all gating approvals.
+
+Link to Request: http://w3.trmisworkspace.td.com/tip/_layouts/FormServer.aspx?XmlLocation=/tip/forms/TRMIS_Request-2017-04-05T15_36_54.xml <http://w3.trmisworkspace.td.com/tip/_layouts/FormServer.aspx?XmlLocation=/tip/forms/TRMIS_Request-2017-04-05T15_36_54.xml&DefaultItemOpen=1&DefaultItemOpen=1> &DefaultItemOpen=1&DefaultItemOpen=1
+Requestor: Khan, Fahad M
+Project Manager: Salkowitz, Alan
+Line of Business:Channels-Other
+Supporting TS Area: CTS
+ERQ Name: US Decoupled Bill Pay Manager
+Description: - Launch reimagined mobile-first (RIB to follow in ver2) bill payment application featuring revolutionary customer experience with bill enrollment and management.  Fiserv will provide rich biller data content across multiple verticals along with flexible funding options and back-end payment processing.    Targeting pilot FY2017 in specific TD footprint metro area providing existing TD bill pay customers the option to participate in mobile app experience. - Reimagined experience involves a customer logging in with their RIB credentials and being pre-emptively shown their bills. This will be enabled by sharing PII data with Fiserv who will perform a look up with various third parties to retrieve any bills for the user
+
+Required Next Steps for this Project/Program/Initiative:
+
+BTRA Required: Yes
+Non-PROD CDSA Required (Prod Data for Non-Prod Templates here <http://w3.td.com/td/intranet/technology/trmis/btrm/> ): No
+Security Architecture Advisory Required (Recommend self-serve advisory to Solution Architect– published here <https://collaborate.dcts.tdbank.com/display/TRMISESA/Security+Advisory+Guidance> ): No
+Security Architecture Review Required (Engage Enterprise Security Architecture - Intake Form <https://collaborate.dcts.tdbank.com/display/TRMISESA/ESA+Intake+Process> ): Yes
+Security Testing Required (Engage Security Testing Team <mailto:Julie.Baker@td.com;Walter.Santamaria@td.com;Ayhan.Tek@td.com;&subject=US%20Decoupled%20Bill%20Pay%20Manager> ): Yes
+Network Firewall Rules Required (For assistance contact CS-TRMIS-SMTR-NETSEC <mailto:CS-TRMIS-SMTR-NETSEC@td.com?subject=US%20Decoupled%20Bill%20Pay%20Manager> ): Yes
+VEF Required (Vendor Engagement Form here <http://w8.teamworks.td.com/Teams/5282/Vendor%20Engagement%20Form(VEF)/Lists/VEF/NewForm.aspx> ): Yes
+ITS BTRM Required (Engage ITS-BTRM Team <mailto:TD.TRMIS-BTRM-ITS@td.com?subject=US%20Decoupled%20Bill%20Pay%20Manager> ): Yes
+Cloud Security Required (For assistance contact Richard Jones <mailto:Richard.Jones@td.com?subject=US%20Decoupled%20Bill%20Pay%20Manager> ): No
+Payment Card Security Required (Engage PCS BTRM Team <mailto:TRMIS-BTRM-PCS@td.com?subject=US%20Decoupled%20Bill%20Pay%20Manager> ): Yes
+Web & Mobile Application Self-Assessment Required (Web & Mobile Application Self-Assessment Form here <http://w3.trmisworkspace.td.com/Collaborations/Projects/SVA/Forms/Forms/AllItems.aspx> ): Yes
+
+Please follow these steps to assign yourself the request:
+1. Open the submission here <http://w3.trmisworkspace.td.com/tip/_layouts/FormServer.aspx?XmlLocation=/tip/forms/TRMIS_Request-2017-04-05T15_36_54.xml&Source=http://w3.trmisworkspace.td.com/tip/&DefaultItemOpen=1>  or view your teams Request Dashboard here <http://w3.trmisworkspace.td.com/tip/Pages/RequestQueue_Team.aspx> .
+2. Review request and determine whether you are the appropriate BTRM to be assigned. 
+3. Enter your name in the 'Assignee' field.
+4. Enter your response in the 'Assignee's Response' field.
+5. You can click 'Save' if not ready to send but want to assign a resource or you can click 'Complete & Send Response' to respond to the requestor.
+
+If you don't believe this request should be assigned to your team:
+1. Open the submission here <http://w3.trmisworkspace.td.com/tip/_layouts/FormServer.aspx?XmlLocation=/tip/forms/TRMIS_Request-2017-04-05T15_36_54.xml&Source=http://w3.trmisworkspace.td.com/tip/&DefaultItemOpen=1>  or view your teams Request Dashboard here <http://w3.trmisworkspace.td.com/tip/Pages/RequestQueue_Team.aspx> .
+2. Modify the Supporting BTRM Team to reflect the appropriate team.
+3. Select 'Re-Route Request'.
+A notification will be sent to the new team advising them that this request has been re-routed. 
+
